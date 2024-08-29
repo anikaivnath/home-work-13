@@ -74,3 +74,10 @@ a{
 h2{
     text-align: center;
 }
+#icon{
+    display: flex;
+    justify-content:right;
+    font-size: 20px;
+    color: aliceblue;
+    margin:10px ;
+}
