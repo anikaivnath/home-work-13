@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: rgb(235, 222, 222);
+    display: flex;
+    padding: 10px;
+    margin-left: 40px;  
+}
+.nav{
+   
+    background-color: rgb(106, 60, 150);
+    width: 180px;
+    height: 100vh;
+    position: fixed;
+}
+#pro{
+    padding-top: 30px;
+}
+.profile{
+
+    margin-left:180px ;
+    text-align: justify;
+    background-color: rgb(51, 102, 104);
+    color: antiquewhite;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 300px;
+}
+.project{
+
+    margin-left:180px ;
+    text-align: justify;
+    background-color: rgb(85, 51, 104);
+    color: rgb(224, 218, 209);
+    justify-content: center;
+    height: 100vh;
+    padding-top: 300px;
+}
+.contact{
+
+    margin-left:180px ;
+    text-align: justify;
+    background-color: rgb(104, 51, 86);
+    color: antiquewhite;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 300px;
+}
+.log-in{
+
+    margin-left:180px ;
+    text-align: justify;
+    background-color: rgb(66, 82, 10);
+    color: antiquewhite;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 300px;
+}
+.Exit{
+
+    margin-left:180px ;
+    text-align: justify;
+    background-color: rgb(104, 51, 58);
+    color: rgb(250, 215, 217);
+    justify-content: center;
+    height: 100vh;
+    padding-top: 300px;
+}
+
+h2{
+    text-align: center;
+}
