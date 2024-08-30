@@ -8,7 +8,8 @@ a{
     color: rgb(235, 222, 222);
     display: flex;
     padding: 10px;
-    margin-left: 40px;  
+    margin-left: 40px; 
+    scroll-behavior: smooth; 
 }
 .nav{
    
@@ -16,6 +17,8 @@ a{
     width: 180px;
     height: 100vh;
     position: fixed;
+    display: block;
+    
 }
 #pro{
     padding-top: 30px;
@@ -75,9 +78,26 @@ h2{
     text-align: center;
 }
 #icon{
-    display: flex;
-    justify-content:right;
+   
     font-size: 20px;
     color: aliceblue;
-    margin:10px ;
+    margin-top:10px ;
+    padding-left: 120px;
+    display: none;
+
+}
+.names{
+    
+    background-color: rgb(106, 60, 150);
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    display: none;
+}
+#icon2{
+    color: aliceblue;
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    
 }
